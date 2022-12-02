@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent{
+            height: 500px;
+            width: 600px;
+            border: 1px solid;
+
+        }
+        #ball{
+            height: 50px;
+            width: 50px;
+            border: 1px solid;
+            border-radius:50%;
+            background-color: blueviolet;
+
+        }
+        #box{
+            height: 300px;
+            width: 200px;
+            border: 1px solid;
+            background-color: yellow;
+            
+
+        }
+        @keyframes ball{
+            0%{
+                top: 0px;
+                left: 0px;
+            }
+            25%{
+                left: 200px;
+                top: 0px;
+                background-color: orange;
+                
+            }
+            50%{
+                top: 250px;
+                left: 200px;
+                height: 200px;
+                width: 200px;
+                border-radius: 50%;
+                background-image: url();
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+
+            }
+            75%{
+                top: 250px;
+                left: -50px;
+                background-color: green;
+
+            }
+            100%{
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="ball"></div>
+        <div id="box"></div>
+    </div>
+   
+</body>
+</html>
